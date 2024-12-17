@@ -1,0 +1,92 @@
+/* style de base*/
+body {
+	font-family: arial,sans-serlf;
+	margin: 0;
+	padding: o;
+	line-height: 1.6;
+	background-color: #f8f9fa;
+	color: #333;
+}
+/* En tete */
+header {
+	background: #343a40;
+	color: #fff;
+	padding: 1rem 0;
+	text-align: center;
+}
+header h1 {
+	margin: 0;
+
+}
+nav ul{
+	list-style: none;
+	padding: 0;
+}
+nav ul li {
+	display: inline;
+	margin: 0 15px;
+}
+nav ul li a{
+
+	color: #fff;
+	text-decoration: underline;
+	font-weight: bold;
+}
+/* sections principales*/
+main section{
+	padding: 2rem;
+	margin: 2rem auto;
+	max-width: 800px;
+	background: white;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1)
+	border-radius: 8px;
+}
+/* Titre*/
+main section h2 {
+	color: #343a40;
+}
+/*Liste des competences*/
+#skills ul {
+	list-style: square inside;
+}
+/*Projets */
+.projets{
+	margin-bottom: 1.5rem;
+
+}
+.projects h3{
+	margin: 0;
+	color: #007bff;
+
+}
+/*Formulaire*/
+form{
+	display: flex;
+	flex-direction: column;
+}
+form label {
+	margin-bottom: 0.5rem;
+}
+form input,form textarea,form button {
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+form button{
+	background: #007bff;
+	color:white;
+	border: none;
+	cursor: pointer;
+}
+form button:hover {
+	background: #0056b3;
+
+}
+/*pied de page*/
+footer {
+	text-align: center;
+	padding: 1rem 0;
+	background: #343a40;
+	color: #fff;
+}
